@@ -1,0 +1,11 @@
+version: '3'
+services:
+  opa:
+    image: openpolicyagent/opa:0.44.0
+    ports:
+      - 8181:8181
+    command: "run --server example.rego data.json"
+      
+    volumes:
+      - ../opa-python/example.rego:/example.rego
+      - ../opa-python/data.json:/data.json

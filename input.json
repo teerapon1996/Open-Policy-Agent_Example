@@ -1,0 +1,5 @@
+{
+    "action": "read",
+    "resource": "Activity",
+    "user": "data_e1"
+}

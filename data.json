@@ -1,0 +1,36 @@
+{
+    "user_roles": {
+        "admin12": [
+            {
+                "actor": "admin"
+            }
+        ],
+        "data_e1": [
+            {
+                "actor": "data_engineer"
+            }
+        ],
+        "data_sp1": [
+            {
+                "actor": "data_scientist"
+            }
+        ]
+    },
+    "permission": [
+        {
+            "actor": "admin",
+            "action": "read",
+            "resource": "Activity"
+        },
+        {
+            "actor": "data_engineer",
+            "action": "read",
+            "resource": "Activity"
+        },
+        {
+            "actor": "data_scientist",
+            "action": "read",
+            "resource": "Activity"
+        }
+    ]
+}

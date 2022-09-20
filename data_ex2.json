@@ -1,0 +1,31 @@
+{
+    "role": {
+        "admin": [
+            "admin"
+        ],
+        "data_engineer": [
+            "employee",
+            "billing"
+        ],
+        "data_scientist": [
+            "customer"
+        ]
+    },
+    "permission": [
+        {
+            "actor": "admin",
+            "action": "read",
+            "resource": "Activity"
+        },
+        [{
+            "actor": "data_specialist",
+            "action": "read",
+            "resource": "Activity"
+        },
+        {
+            "actor": "data_scientist",
+            "action": "read",
+            "resource": "Activity"
+        }
+    ]]
+}
